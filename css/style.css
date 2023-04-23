@@ -173,16 +173,23 @@ body {
   text-transform: capitalize;
   color: var(--section-text-color);
   margin-bottom: 72px;
+  
 }
 
 .work-title {
   padding-bottom: 120px;
+  
 }
 
 .works-list {
   display: flex;
-  gap: 24px;
+  gap: 24px; 
+  padding-left: 0;
   width: calc((100% - 48px) / 3);
+}
+
+.works-img {
+  
 }
 
 /* 4 section */
