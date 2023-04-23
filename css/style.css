@@ -54,6 +54,7 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
+  margin-right: auto;
 }
 
 .nav-page {
@@ -63,6 +64,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--section-text-color);
   padding: 24px 0;
+  
 }
 .nav-page:hover {
   color: var(--hover-back);
@@ -73,12 +75,13 @@ body {
 
 .address {
   font-style: normal;
-  margin-left: 210px;
+  
 }
 
 .data {
   display: flex;
   gap: 40px;
+ 
 }
 
 .data-item {
@@ -88,6 +91,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   padding: 24px 0;
+  margin-right: auto;
 }
 .data-item:hover {
   color: var(--hover-back);
