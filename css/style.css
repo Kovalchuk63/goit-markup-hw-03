@@ -99,9 +99,7 @@ body {
 .title {
   background-color: var(--section-text-color);
   padding: 188px 0;
-
 }
-
 
 .title-about {
   font-size: 56px;
@@ -139,10 +137,11 @@ body {
 .feature-items {
   gap: 24px;
   display: flex;
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  padding-left: 0;
 }
 
 .feature-list {
-  width: calc((100% - 3 * 24px) / 4);
 }
 
 .feature-sub {
@@ -156,10 +155,11 @@ body {
 }
 .feature-sub-deck {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 24px;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
-.section-2 {
+.feature {
   padding: 120px 0;
 }
 
@@ -182,9 +182,6 @@ body {
 .works-list {
   display: flex;
   gap: 24px;
-}
-
-.work-img {
   width: calc((100% - 48px) / 3);
 }
 
@@ -265,9 +262,7 @@ body {
 }
 
 /* main Portfolio*/
-.port-div {
-  padding: 0;
-}
+
 .button-title {
   padding-top: 96px;
   padding-bottom: 120px;
@@ -278,6 +273,7 @@ body {
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
+  padding-left: 0;
 }
 
 .btn {
@@ -307,9 +303,12 @@ body {
 .row-list {
   flex-wrap: wrap;
   display: flex;
-  row-gap: 40px;
+  row-gap: 48px;
   column-gap: 24px;
-  padding: 0;
+  padding-left: 0;
+}
+.row-item {
+  width: calc((100% - 48px) / 3);
 }
 
 img {
