@@ -178,18 +178,16 @@ body {
 
 .work-title {
   padding-bottom: 120px;
-  
 }
 
 .works-list {
   display: flex;
   gap: 24px; 
   padding-left: 0;
-  width: calc((100% - 48px) / 3);
 }
 
 .works-img {
-  
+  width: calc((100% - 48px) / 3);
 }
 
 /* 4 section */
